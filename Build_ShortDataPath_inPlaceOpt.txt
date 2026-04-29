@@ -1,0 +1,2 @@
+# Optimize Data Path shoten if CTS is not enough margin: Set for startPoint 
+set_clock_latency <Pinname> <value> #(value -)--> tite 
