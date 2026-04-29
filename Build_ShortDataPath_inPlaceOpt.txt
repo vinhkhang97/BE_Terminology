@@ -1,2 +1,5 @@
 # Optimize Data Path shoten if CTS is not enough margin: Set for startPoint 
+# Set before PlaceOpt
 set_clock_latency <Pinname> <value> #(value -)--> tite 
+# After tool clk, need to reset command setting
+reset_clocks_latency
