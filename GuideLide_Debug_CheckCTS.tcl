@@ -8,6 +8,10 @@ ctd_trace -from <begin_point> (-longest: Use this option to trace max latency)
 # Trace latency path from root clk pin to the longest sink pin 
 ctd_trace -from [lindex [get_ccopt_skew_group_path -skew_group <skew_group_name> -longest] 0] -to [lindex [get_ccopt_skew_group_path -skew_group <skew_group_name> -longest] end] -color yellow
 
+# Check list of attribution of get_ccopt_property CMD begin with a letter
+get_ccopt_property -help <letter>*
+=>>>> EX: get_ccopt_property -help s*
+
 # Get skew groups of sink pin -> Show sink pin belongs to which skew groups -> In the future, the sink pin will balance follow their skew groups
 get_ccopt_property skew_groups_active -pin <sink_pin/CP>
 
