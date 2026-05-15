@@ -5,6 +5,9 @@ ctd_win
 ctd_trace -to <sink_pin/CP>
 # Trace latency path from root clk pin / generated clk to sink pin in GUI
 ctd_trace -from <begin_point> (-longest: Use this option to trace max latency)
+# Trace latency path from root clk pin to the longest sink pin 
+ctd_trace -from [lindex [get_ccopt_skew_group_path -skew_group <skew_group_name> -longest] 0] -to [lindex [get_ccopt_skew_group_path -skew_group <skew_group_name> -longest] end] -color yellow
+
 # Get skew groups of sink pin -> Show sink pin belongs to which skew groups -> In the future, the sink pin will balance follow their skew groups
 get_ccopt_property skew_groups_active -pin <sink_pin/CP>
 
@@ -14,4 +17,8 @@ get_ccopt_skew_group_delay -skew_group <Skew_group> -to <sink_pin/CP>
 # Get root clock pins of sink pin
 get_property  [get_pins <Sink_pin/CP> ] clocks
 
+# SHow all information about active analysis views
+report_analysis_views -type active
 
+# Check insertion_delay value of a sink pin
+get_ccopt_property insertion delay
