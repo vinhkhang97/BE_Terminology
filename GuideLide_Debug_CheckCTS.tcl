@@ -21,7 +21,7 @@ get_ccopt_skew_group_delay -skew_group <Skew_group> -to <sink_pin/CP>
 # Get root clock pins of sink pin
 get_property  [get_pins <Sink_pin/CP> ] clocks
 
-# SHow all information about active analysis views - Analysis view: VIEW_FUNC* & Delay Corner: DC_FUNC_HOLD_FF*CMIN
+# Show all information about active analysis views - Analysis view: VIEW_FUNC* & Delay Corner: DC_FUNC_HOLD_FF*CMIN
 report_analysis_views -type active
 
 # Check insertion_delay value of a sink pin
@@ -32,4 +32,6 @@ set_ccopt_property balance_mode cluster
 or 
 set_ccopt_property save_db_after_cts ./DBS/04_clustering.enc
 
-
+# Debug by report clk tree.
+report_ccopt_clock_trees_tructure -expand_below_generators -expand_below_logic -show_sinks -file RPT/300_ccopt/300_ccopt. clock_trace_after.rpt
+report_ccopt_clock_trees -filenane RPT/300_ccopt/300_ccopt.clock_trees.rpt
