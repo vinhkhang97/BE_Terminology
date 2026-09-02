@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="eWFIqjn-V9htcwwQ_Q-N">
-    <mxGraphModel dx="1814" dy="1543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="975" dy="2112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,8 +60,26 @@
         <mxCell id="txDy0r-FvdljxFREmGV1-1" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="List Item" vertex="1">
           <mxGeometry height="26" width="60" x="420" y="-240" as="geometry" />
         </mxCell>
-        <mxCell id="zUvsPgM3itF85IOQvmg5-3" parent="1" style="triangle;whiteSpace=wrap;html=1;shapeInside=1;" value="Noc_lck" vertex="1">
-          <mxGeometry height="80" width="150" x="-250" y="-450" as="geometry" />
+        <mxCell id="zUvsPgM3itF85IOQvmg5-8" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="150" x="70" y="-1380" as="geometry" />
+        </mxCell>
+        <mxCell id="zUvsPgM3itF85IOQvmg5-3" parent="zUvsPgM3itF85IOQvmg5-8" style="triangle;whiteSpace=wrap;html=1;shapeInside=1;" value="Noc_lck" vertex="1">
+          <mxGeometry height="80" width="150" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="zUvsPgM3itF85IOQvmg5-7" parent="zUvsPgM3itF85IOQvmg5-8" style="text;whiteSpace=wrap;html=1;" value="&lt;font color=&quot;#ededed&quot;&gt;&lt;span style=&quot;background-color: rgb(34, 34, 34);&quot;&gt;1.2Ghz&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="70" x="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUvsPgM3itF85IOQvmg5-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Tessen_occ" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="-1360" as="geometry" />
+        </mxCell>
+        <mxCell id="zUvsPgM3itF85IOQvmg5-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="u_aclk_rstn_syns" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="-1360" as="geometry" />
+        </mxCell>
+        <mxCell id="zUvsPgM3itF85IOQvmg5-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="u_fnoc_a2x2_Inst0" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="-1250" as="geometry" />
+        </mxCell>
+        <mxCell id="zUvsPgM3itF85IOQvmg5-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="u_fnoc_a2x2_Inst1" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="-1150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
