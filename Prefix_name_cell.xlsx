@@ -1,1 +1,41 @@
+CTS prefix name	Opt design prefix name		
+cuk Cts: Unknown creator, will not appear in the netlist.	FE_MDBC	Instance added by multi-driver net buffering	optDesign
+ccl_a Cts: Created during clustering by the agglom clustering algorithm.	FE_MDBN	Net added by multi-driver net buffering	optDesign
+cbi Cts: Created by the swapping buffers and inverters for power.	FE_OCP_RBC	Instance added by rebuffering	optDesign
+cex Cts: Existing cells in the clock tree which cannot be removed.	FE_OCP_RBN	Net added by rebuffering	optDesign
+coi Cts: Cells created as a result of cancelling out inversions	FE_OCPC	Instance added by critical path optimization	optDesign
+lbl Cts: Created by the clustering process to meet the slew target	FE_OCPN	Net added by critical path optimization	optDesign
+ccl Cts: Created by the clustering process to meet the slew target	FE_OFC	Buffer instance added by rule-based buffer insertion or DRV fixing	insertRepeater/optDesign
+ccd Cts: Created by clustering for balancing the tree - these cells are not necessary to meet the slew target.	FE_OFN	Buffer net added by rule-based buffer insertion or DRV fixing	insertRepeater/optDesign
+cci Cts: Created by the clustering process to fix inversion.	FE_PHC	Instance added by hold time repair	optDesign
+csf Cts: Created by the CTS slew fixing step in cases where clustering did not meet the slew target.	FE_PHN	Net added by hold time repair	optDesign
+cms Cts: Created during the process of physically moving clock gates to improve their enable timing.	FE_PSBC	Instance added by buffer insertion in optDesign - postRoute	optDesign
+cid Cts: Created by CTS on the outputs of weak driving cells to reduce insertion delay.	FE_PSBN	Net added by buffer insertion in optDesign - postRoute	optDesign
+cdb Cts: Created by CTS to balance the delays in the clock tree.	FE_PSC	Instance added by postroute setup repair	optDesign
+cdbw Cts: Created by CTS to balance the delays in the clock tree.	FE_PSN	Net added by postroute setup repair	optDesign
+cwb Cts: Created by CTS to balance the wire delays in the clock tree.	FE_PSRN	Net added by postRoute restructuring	optDesign
+cfo Cts: Created by CTS to reduce fanout skew.	FE_RC	Instance created by netlist restructuring	optDesign
+csk Cts: Created by the CTS skew fixing step to finely balance the clock tree.	FE_RN	Net created by netlist restructuring	optDesign
+cmf Cts: Created by CTS to buffer long nets.	FE_USC	Instance added during useful skew optimization	optDesign
+cbc Cts: Created by the clock tree conditioning step to clone off sub trees that cannot optimized by gated synthesis, such as those parts above RAMs, black boxes, and lockup latches.	FE_PDC	Instance added by postroute DRV fixing	optDesign
+css Cts: Created by the early cloning of simple sink allocations.	FE_PDN	Net added by postroute DRV fixing	optDesign
+cdc Cts: A clock driver created by adding driver cell process for attribute cts_add_driver_cell.	FE_RAC	Instance added by reclaim optimizer	optDesign
+cpd Cts: A clock driver created below an input port or above an output port specified by attribute cts_add_port_driver.	FE_RAN	Net added by reclaim optimizer	optDesign
+ccg Cts: A clock gate created by one of the gated synthesis algorithms.	FE_USKC	Instance added during useful skew optimization	optDesign/skewClock
+cse Cts: A clock driver created above exclude pins to remove them from the clock tree.	FE_USKN	Net added during useful skew optimization	optDesign/skewClock
+cfh Cts: A clock driver created as part of a flexible H-tree.	FE_TBOPTPSBC	Cell added during postRoute multi-buffering (NBF) in TBOpt flow	optDesign
+cat Cts: Created by the add_clock_tree_source_group_roots command	FE_TBOPTPSBN	Net added during postRoute multi-buffering (NBF) in TBOpt flow	optDesign
+cpc_drv Cts: A clock driver created by post conditioning.	FE_TBOPTC	Cell added during postRoute single-buffering in TBOpt flow	optDesign
+cpc_sk Cts: A clock driver created by post conditioning.	FE_TBOPTN	Net added during postRoute single-buffering in TBOpt flow	optDesign
+PRO Post-route optimization.	FE_ESO	An Instance added during signoffOptDesign	signoffOptDesign
+PRO_drv Post-route optimization.	FE_ESO_SETUP	An Instance added during setup optimization in signoffOptDesign	signoffOptDesign -setup 
+PRO_sk Post-route optimization.	FE_ESO_HOLD	An Instance added during hold optimization in signoffOptDesign	signoffOptDesign -hold
+sfc Cloned by slew fixing.	FE_ESO_DRV	An Instance added during DRV optimization in signoffOptDesign	signoffOptDesign -drv 
+ccc Cts: Created by the clone_clock_cells command.			
+grb Cts: A clock driver created by global route buffering.			
+sgb Cts: A clock driver created by source group balancing.			
+idc Cloned to reduce insertion delay			
+vgb Cts: A clock driver created by VG buffering.			
+USK skewClock			
+cff Cts: A clock driver created by fanout fixing.			
 
