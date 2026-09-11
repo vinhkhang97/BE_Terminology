@@ -2342,6 +2342,20 @@
         <mxCell id="HXFIyIMSe4SseBfgyx_q-109" parent="HXFIyIMSe4SseBfgyx_q-110" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="OCC_module" vertex="1">
           <mxGeometry height="30" width="60" x="20" as="geometry" />
         </mxCell>
+        <mxCell id="HXFIyIMSe4SseBfgyx_q-126" parent="HXFIyIMSe4SseBfgyx_q-110" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;A&lt;/font&gt;" vertex="1">
+          <mxGeometry height="10" width="10" x="190" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HXFIyIMSe4SseBfgyx_q-129" edge="1" parent="HXFIyIMSe4SseBfgyx_q-110" source="HXFIyIMSe4SseBfgyx_q-126" style="endArrow=block;html=1;rounded=0;align=center;verticalAlign=top;endFill=1;labelBackgroundColor=none;endSize=6;fontFamily=Helvetica;fontSize=12;fontColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="HXFIyIMSe4SseBfgyx_q-128" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="215" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HXFIyIMSe4SseBfgyx_q-128" parent="HXFIyIMSe4SseBfgyx_q-110" style="html=1;whiteSpace=wrap;shadow=0;dashed=0;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" value="Func clk" vertex="1">
+          <mxGeometry height="30" width="80" x="160" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HXFIyIMSe4SseBfgyx_q-130" parent="HXFIyIMSe4SseBfgyx_q-110" style="html=1;whiteSpace=wrap;shadow=0;dashed=0;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" value="dft clk" vertex="1">
+          <mxGeometry height="30" width="80" x="160" y="20" as="geometry" />
+        </mxCell>
         <mxCell id="nFcfvdz42RmZHrVgB5yJ-2" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_flip-flop;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="62.12" width="60" x="220" y="632.88" as="geometry" />
         </mxCell>
@@ -2686,6 +2700,12 @@
         </mxCell>
         <mxCell id="HXFIyIMSe4SseBfgyx_q-125" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;logic_test_tesent_ssn_scan_host&lt;/span&gt;" vertex="1">
           <mxGeometry height="28.23" width="107" x="90" y="604.65" as="geometry" />
+        </mxCell>
+        <mxCell id="HXFIyIMSe4SseBfgyx_q-127" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;B&lt;/font&gt;" vertex="1">
+          <mxGeometry height="10" width="10" x="890" y="734" as="geometry" />
+        </mxCell>
+        <mxCell id="HXFIyIMSe4SseBfgyx_q-131" edge="1" parent="1" source="HXFIyIMSe4SseBfgyx_q-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;" target="HXFIyIMSe4SseBfgyx_q-127">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
