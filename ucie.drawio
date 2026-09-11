@@ -2356,7 +2356,7 @@
         <mxCell id="HXFIyIMSe4SseBfgyx_q-130" parent="HXFIyIMSe4SseBfgyx_q-110" style="html=1;whiteSpace=wrap;shadow=0;dashed=0;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" value="dft clk" vertex="1">
           <mxGeometry height="30" width="80" x="160" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="nFcfvdz42RmZHrVgB5yJ-2" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_flip-flop;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+        <mxCell id="nFcfvdz42RmZHrVgB5yJ-2" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_flip-flop;fillColor=#66FF66;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="62.12" width="60" x="220" y="632.88" as="geometry" />
         </mxCell>
         <mxCell id="HXFIyIMSe4SseBfgyx_q-20" edge="1" parent="1" source="HXFIyIMSe4SseBfgyx_q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.19462134847016477;exitDx=0;exitDy=3;exitPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;">
@@ -2370,6 +2370,11 @@
         <mxCell id="HXFIyIMSe4SseBfgyx_q-21" edge="1" parent="1" source="HXFIyIMSe4SseBfgyx_q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5838640454104943;exitDx=0;exitDy=3;exitPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;shape=wire;dashed=1;endArrow=none;endFill=0;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="870" y="791.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HXFIyIMSe4SseBfgyx_q-135" edge="1" parent="1" source="HXFIyIMSe4SseBfgyx_q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=-5;exitPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="763" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HXFIyIMSe4SseBfgyx_q-2" parent="1" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.abstract.mux2;whiteSpace=wrap;strokeColor=#d79b00;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#ffe6cc;rotation=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;" value="Mux" vertex="1">
@@ -2705,6 +2710,15 @@
           <mxGeometry height="10" width="10" x="890" y="734" as="geometry" />
         </mxCell>
         <mxCell id="HXFIyIMSe4SseBfgyx_q-131" edge="1" parent="1" source="HXFIyIMSe4SseBfgyx_q-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;" target="HXFIyIMSe4SseBfgyx_q-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HXFIyIMSe4SseBfgyx_q-132" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_flip-flop;fillColor=#66FF66;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="62.12" width="60" x="990" y="668.88" as="geometry" />
+        </mxCell>
+        <mxCell id="HXFIyIMSe4SseBfgyx_q-133" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_flip-flop;fillColor=#66FF66;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="62.12" width="60" x="990" y="778.44" as="geometry" />
+        </mxCell>
+        <mxCell id="HXFIyIMSe4SseBfgyx_q-134" edge="1" parent="1" source="HXFIyIMSe4SseBfgyx_q-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" target="HXFIyIMSe4SseBfgyx_q-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
