@@ -13,7 +13,7 @@ get_ccopt_property -help <letter>*
 =>>>> EX: get_ccopt_property -help s*
 
 # Get skew groups of sink pin -> Show sink pin belongs to which skew groups -> In the future, the sink pin will balance follow their skew groups
-get_ccopt_property skew_groups_active -pin <sink_pin/CP>
+get_ccopt_property skew_groups_active -pin <sink_pin/CK>
 
 # Get latency value of sink pin from skew groups of sink pin
 get_ccopt_skew_group_delay -skew_group <Skew_group> -to <sink_pin/CP>
