@@ -21,6 +21,9 @@ get_ccopt_skew_group_delay -skew_group <Skew_group> -to <sink_pin/CP>
 # Get root clock pins of sink pin
 get_property  [get_pins <Sink_pin/CP> ] clocks
 
+# Get path longest from skew group
+lindex [get_ccopt_skew_group_path -skew_group <Skew_group> - longest ] end
+
 # Show all information about active analysis views - Analysis view: VIEW_FUNC* & Delay Corner: DC_FUNC_HOLD_FF*CMIN
 report_analysis_views -type active
 
